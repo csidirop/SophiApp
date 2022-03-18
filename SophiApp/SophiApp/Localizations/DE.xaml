@@ -18,6 +18,7 @@
     <system:String x:Key="Conditions.OsIsInfected.Link">https://itnan.ru/post.php?c=1&amp;p=557388</system:String>
     <system:String x:Key="Conditions.RiskAgree">Ich bin mir des Risikos bewusst und übernehme die Verantwortung für eventuelle Schäden.</system:String>
     <system:String x:Key="Conditions.ReinstallOs">Installieren Sie das Betriebssystem vorsichtshalber neu.</system:String>
+    <system:String x:Key="Conditions.DefenderIsBroken">Microsoft Defender funktioniert nicht oder wurde vom System entfernt.</system:String>
     <system:String x:Key="Conditions.Windows10DebloaterNotUsed.StabilityCompromised">Die Windows Betriebssystem Stabilität kann beeinträchtigt worden sein durch die Nutzung von</system:String>
     <system:String x:Key="Conditions.Windows10DebloaterNotUsed.SycnexScript">Windows10Debloater script von Sycnex. Installieren Sie das Betriebssystem vorsichtshalber neu.</system:String>
     <system:String x:Key="Conditions.OsUpdateBuildRevision.MinimumVersion">Ihre OS build version ist niedriger als die geringste noch unterstützte.</system:String>

@@ -1,5 +1,6 @@
 ﻿using SophiApp.Conditions;
 using SophiApp.Interfaces;
+using SophiApp.StartupConditions;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -25,8 +26,9 @@ namespace SophiApp.Helpers
 
         private void Initializing() => Conditions = new List<IStartupCondition>()
         {
-            new OsVersionCondition(), new OsBuildVersionCondition(), new RebootRequiredCondition(), new SingleInstanceCondition(),
-            new SingleAdminSessionCondition(), new Win10TweakerCondition(), new SycnexScriptCondition(),
+            new OsVersionCondition(), new OsBuildVersionCondition(), new RebootRequiredCondition(),
+            new SingleInstanceCondition(), new SingleAdminSessionCondition(), new Win10TweakerCondition(),
+            new SycnexScriptCondition(), new DefenderWarningCondition(), new Win10TweakerBrokeDefender(),
             new NewVersionCondition()
         };
 

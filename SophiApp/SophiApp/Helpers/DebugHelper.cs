@@ -1,4 +1,4 @@
-﻿using SophiApp.Commons;
+using SophiApp.Commons;
 using SophiApp.Dto;
 using SophiApp.Interfaces;
 using System;
@@ -9,28 +9,27 @@ namespace SophiApp.Helpers
 {
     internal class DebugHelper
     {
+        private const string ANTIVIRUS = "Antivirus";
         private const string APP_FOLDER = "App folder";
         private const string APP_IS_RELEASE = "App is release";
         private const string APP_LOC = "App localization";
         private const string APP_THEME = "App theme";
         private const string APP_VER = "App version";
         private const string PC_NAME = "Computer name";
-        private const string REG_ORG = "Registered organization";
-        private const string REG_OWNER = "Registered owner";
         private const string USER_CULTURE = "User culture";
         private const string USER_DOMAIN = "User domain";
         private const string USER_NAME = "Current user";
         private const string USER_REGION = "User region";
+
         private static readonly object infoLogLocker = new object();
+        private static readonly Version OS_VERSION = OsHelper.GetVersion();
         private static readonly object statusLogLocker = new object();
         private static List<string> ErrorsLog = new List<string>();
 
         private static List<string> InfoLog = new List<string>
         {
-            $"{OsHelper.GetProductName()} {OsHelper.GetDisplayVersion()} build: {OsHelper.GetVersion()}",
+            $"{OsHelper.GetProductName()} {OsHelper.GetDisplayVersion()} build {OS_VERSION.Build}.{OS_VERSION.Revision}",
             $"{PC_NAME}: {Environment.MachineName}",
-            $"{REG_ORG}: {OsHelper.GetRegisteredOrganization()}",
-            $"{REG_OWNER}: {OsHelper.GetRegisteredOwner()}",
             $"{USER_NAME}: {Environment.UserName}",
             $"{USER_DOMAIN}: {Environment.GetEnvironmentVariable("userdnsdomain") ?? Environment.UserDomainName}",
             $"{USER_CULTURE}: {OsHelper.GetCurrentCultureName()}",
@@ -41,7 +40,6 @@ namespace SophiApp.Helpers
         };
 
         private static List<string> InitLog = new List<string>();
-
         private static List<string> StatusLog = new List<string>();
 
         private static string DateTime { get => System.DateTime.Now.ToString("dd.MM.yyyy HH:mm:ss"); }
@@ -74,6 +72,8 @@ namespace SophiApp.Helpers
 
         internal static void DebugMode(bool value) => WriteStatusLog($"Debug mode is: {value}");
 
+        internal static void FoundExternalAntiVirus(string antiVirusName) => WriteInfoLog($"{ANTIVIRUS}: {antiVirusName}");
+
         internal static void HasException(string message, Exception e)
         {
             ErrorsLog.AddRange(new List<string>()
@@ -96,7 +96,7 @@ namespace SophiApp.Helpers
 
         internal static void LinkClicked(string link) => WriteStatusLog($"Link clicked: \"{link}\"");
 
-        internal static void OsConditionHasProblem(IStartupCondition condition) => WriteStatusLog($"{condition.Tag} is has problem: {condition.HasProblem}");
+        internal static void OsConditionHasValue(IStartupCondition condition) => WriteStatusLog($"{condition.Tag} has value: {condition.HasProblem}");
 
         internal static void RiskAgreed() => WriteStatusLog("USER AGREED TO ASSUME THE RISK AND LIABILITY FOR ANY POSSIBLE DAMAGE");
 
@@ -106,27 +106,27 @@ namespace SophiApp.Helpers
 
         internal static void SelectedTheme(string value) => WriteStatusLog($"Theme selected: {value}");
 
-        internal static void StartApplyingSettings(int actionsCount) => WriteStatusLog($"Started applying {actionsCount} setting(s)");
+        internal static void StartApplyingSettings(int actionsCount) => WriteStatusLog($"Applying {actionsCount} setting(s) started");
 
-        internal static void StartInitTextedElements() => WriteStatusLog("Started initialization of texted elements");
+        internal static void StartInitTextedElements() => WriteStatusLog("Initialization of the elements started");
 
-        internal static void StartInitUwpApps() => WriteStatusLog("Started initialization of uwp elements");
+        internal static void StartInitUwpApps() => WriteStatusLog("Initialization of the UWP elements started");
 
-        internal static void StartResetTextedElements() => WriteStatusLog("Started reset texted elements status");
+        internal static void StartResetTextedElements() => WriteStatusLog("The elements status resetting started");
 
-        internal static void StartStartupConditions() => WriteStatusLog("Starting the OS conditions check");
+        internal static void StartStartupConditions() => WriteStatusLog("The OS conditions checkings started");
 
         internal static void StopApplyingSettings(double totalSeconds) => WriteStatusLog($"Applying setting(s) took {totalSeconds:N0} second(s)");
 
-        internal static void StopInitTextedElements(double totalSeconds) => WriteStatusLog($"It took {totalSeconds:N0} second(s) to initialize texted elements");
+        internal static void StopInitTextedElements(double totalSeconds) => WriteStatusLog($"It took {totalSeconds:N0} second(s) to initialize elements");
 
-        internal static void StopInitUwpApps(double totalSeconds) => WriteStatusLog($"It took {totalSeconds:N0} second(s) to initialize uwp elements");
+        internal static void StopInitUwpApps(double totalSeconds) => WriteStatusLog($"It took {totalSeconds:N0} second(s) to initialize the UWP elements");
 
-        internal static void StopResetTextedElements(double totalSeconds) => WriteStatusLog($"It took {totalSeconds:N0} second(s) to reset texted elements");
+        internal static void StopResetTextedElements(double totalSeconds) => WriteStatusLog($"It took {totalSeconds:N0} second(s) to reset elements");
 
         internal static void StopSearch(string searchString, double totalSeconds, int elementFound) => WriteStatusLog($"It took {totalSeconds:N3} seconds to search for \"{searchString}\" and found {elementFound} item(s)");
 
-        internal static void StopStartupConditions(double totalSeconds) => WriteStatusLog($"It took {totalSeconds:N0} second(s) to Os conditions checks");
+        internal static void StopStartupConditions(double totalSeconds) => WriteStatusLog($"It took {totalSeconds:N0} second(s) to OS conditions checks");
 
         internal static void TextedElementChanged(uint elementID, ElementStatus elementStatus) => WriteStatusLog($"The {elementID} element changed status to: {elementStatus}");
 
