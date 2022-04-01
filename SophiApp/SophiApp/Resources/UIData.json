@@ -4,12 +4,12 @@
     "Header": {
       "EN": "The telemetry service",
       "RU": "Служба телеметрии",
-      "DE": ""
+      "DE": "Der Telemetrie-Dienst"
     },
     "Description": {
       "EN": "Configure the Connected User Experiences and Telemetry (DiagTrack) service, and connection for the Unified Telemetry Client Outbound Traffic.",
       "RU": "Настроить cлужбу \"Функциональные возможности для подключенных пользователей и телеметрия\" (DiagTrack) и соединение для исходящего трафика клиента единой телеметрии",
-      "DE": ""
+      "DE": "Konfigurieren Sie den Dienst \"Connected User Experiences and Telemetry\" (DiagTrack) und die Verbindung für den ausgehenden Verkehr des \"Unified Telemetry Client\"."
     },
     "Type": "CheckBox",
     "Tag": "Privacy",
@@ -22,12 +22,12 @@
     "Header": {
       "EN": "The OS level of diagnostic data gathering",
       "RU": "Уровень сбора диагностических данных ОС",
-      "DE": ""
+      "DE": "Die Betriebssystemebene der Datenerfassung für die Diagnose."
     },
     "Description": {
       "EN": "As a part of using Windows, your device sends Microsoft a limited set of adata that is necessary to keep your device and operating system secure, up to date, and working as expected.",
       "RU": "При использовании Windows ваше устройство отправляет в Майкрософт ограниченный набор данных, которые необходимы для защиты вашего устройства и операционной системы, а также для его корректной работы",
-      "DE": ""
+      "DE": "Als Teil der Verwendung von Windows sendet Ihr Gerät an Microsoft einen bestimmten Satz von Daten, die erforderlich sind, damit Ihr Gerät und Ihr Betriebssystem sicher und auf dem neuesten Stand sind und wie erwartet funktionieren."
     },
     "Type": "RadioGroup",
     "Tag": "Privacy",
@@ -37,7 +37,7 @@
         "ChildHeader": {
           "EN": "Default",
           "RU": "По умолчанию",
-          "DE": ""
+          "DE": "Standart"
         },
         "ChildDescription": {
           "EN": "",
@@ -51,7 +51,7 @@
         "ChildHeader": {
           "EN": "Minimal",
           "RU": "Минимальный",
-          "DE": ""
+          "DE": "Minimal"
         },
         "ChildDescription": {
           "EN": "",
@@ -70,12 +70,12 @@
     "Header": {
       "EN": "The Windows Error Reporting",
       "RU": "Запись отчетов об ошибках Windows",
-      "DE": ""
+      "DE": "Windows Fehlerberichte"
     },
     "Description": {
       "EN": "The error reporting feature enables users to notify Microsoft of application faults, kernel faults, unresponsive applications, and other application specific problems. Microsoft can use the error reporting feature to provide customers with troubleshooting information, solutions, or updates for their specific problems.",
       "RU": "Функция создания отчетов об ошибках позволяет пользователям уведомлять Майкрософт о сбоях приложений, сбоях ядра, неотвечающих приложениях и других проблемах, связанных с приложениями. Корпорация Майкрософт может использовать функцию отчетов об ошибках для предоставления клиентам сведений об устранении неполадок, решениях или обновлениях для конкретных проблем",
-      "DE": ""
+      "DE": "Die Fehlerberichtsfunktion ermöglicht es Benutzern, Microsoft über Anwendungsfehler, Kernel-Fehler, nicht reagierende Anwendungen und andere anwendungsspezifische Probleme zu informieren. Microsoft kann die Fehlerberichtsfunktion nutzen, um Kunden Informationen zur Fehlerbehebung, Lösungen oder Updates für ihre spezifischen Probleme bereitzustellen."
     },
     "Type": "CheckBox",
     "Tag": "Privacy",
@@ -88,12 +88,12 @@
     "Header": {
       "EN": "Feedback frequency",
       "RU": "Частота отправки запросов",
-      "DE": ""
+      "DE": "Feedback Frequenz"
     },
     "Description": {
       "EN": "Choose how often Windows asks for your feedback.",
       "RU": "Укажите, как часто Windows следует запрашивать ваш отзыв",
-      "DE": ""
+      "DE": "Wählen Sie aus, wie oft Windows nach Ihrem Feedback fragt."
     },
     "Type": "RadioGroup",
     "Tag": "Privacy",
@@ -103,7 +103,7 @@
         "ChildHeader": {
           "EN": "Automatically",
           "RU": "Автоматически",
-          "DE": ""
+          "DE": "Automatisch"
         },
         "ChildDescription": {
           "EN": "",
@@ -117,7 +117,7 @@
         "ChildHeader": {
           "EN": "Never",
           "RU": "Никогда",
-          "DE": ""
+          "DE": "Niemals"
         },
         "ChildDescription": {
           "EN": "",
@@ -136,7 +136,7 @@
     "Header": {
       "EN": "Diagnostic Tracking Tasks",
       "RU": "Задачи диагностического отслеживания",
-      "DE": ""
+      "DE": "Diagnostische Tasks zur Überwachung"
     },
     "Description": {
       "EN": "",
@@ -151,12 +151,12 @@
         "ChildHeader": {
           "EN": "ProgramDataUpdater",
           "RU": "ProgramDataUpdater",
-          "DE": ""
+          "DE": "ProgramDataUpdater"
         },
         "ChildDescription": {
           "EN": "Collects program telemetry information if opted-in to the Microsoft Customer Experience Improvement Program.",
           "RU": "Сбор телеметрических данных программы при участии в программе улучшения качества ПО",
-          "DE": ""
+          "DE": "Erfasst Programmtelemetriedaten, wenn Sie sich für das Microsoft Programm zur Verbesserung der Kundenzufriedenheit angemeldet haben."
         },
         "Type": "CheckBox"
       },
@@ -165,7 +165,7 @@
         "ChildHeader": {
           "EN": "Proxy",
           "RU": "Proxy",
-          "DE": ""
+          "DE": "Proxy"
         },
         "ChildDescription": {
           "EN": "This task collects and uploads autochk SQM data if opted-in to the Microsoft Customer Experience Improvement Program.",
@@ -179,12 +179,12 @@
         "ChildHeader": {
           "EN": "Consolidator",
           "RU": "Consolidator",
-          "DE": ""
+          "DE": "Consolidator"
         },
         "ChildDescription": {
           "EN": "If the user has consented to participate in the Windows Customer Experience Improvement Program, this job collects and sends usage data to Microsoft.",
           "RU": "Если пользователь изъявил желание участвовать в программе по улучшению качества программного обеспечения Windows, эта задача будет собирать и отправлять сведения о работе программного обеспечения в Майкрософт",
-          "DE": ""
+          "DE": "Wenn der Benutzer der Teilnahme am Windows-Programm zur Verbesserung der Kundenzufriedenheit zugestimmt hat, werden mit diesem Task Nutzungsdaten gesammelt und an Microsoft gesendet."
         },
         "Type": "CheckBox"
       },
@@ -193,12 +193,12 @@
         "ChildHeader": {
           "EN": "UsbCeip",
           "RU": "UsbCeip",
-          "DE": ""
+          "DE": "UsbCeip"
         },
         "ChildDescription": {
-          "EN": "The USB CEIP (Customer Experience Improvement Program) task collects Universal Serial Bus related statistics and information about your machine and sends it to the Windows Device Connectivity engineering group at Microsoft.  The information received is used to help improve the reliability, stability, and overall functionality of USB in Windows. If the user has not consented to participate in Windows CEIP, this task does not do anything.",
+          "EN": "The USB CEIP (Customer Experience Improvement Program) task collects Universal Serial Bus related statistics and information about your machine and sends it to the Windows Device Connectivity engineering group at Microsoft. The information received is used to help improve the reliability, stability, and overall functionality of USB in Windows. If the user has not consented to participate in Windows CEIP, this task does not do anything.",
           "RU": "При выполнении задачи программы улучшения качества ПО шины USB (USB CEIP) осуществляется сбор статистических данных об использовании универсальной последовательной шины USB и сведений о компьютере, которые направляются инженерной группе Майкрософт по вопросам подключения устройств в Windows. Полученные сведения используются для повышения надежности, стабильности и общей производительности шины USB в Windows. При отсутствии согласия пользователя на участие в программе улучшения программного обеспечения Windows задача не выполняет никаких действий",
-          "DE": ""
+          "DE": "Der USB-CEIP-Task (\"Customer Experience Improvement Program\") sammelt Statistiken und Informationen zum Universal Serial Bus und sendet sie an die \"Windows Device Connectivity Engineering Group\" bei Microsoft. Die erhaltenen Informationen werden verwendet, um die Zuverlässigkeit, Stabilität und allgemeine Funktionalität von USB in Windows zu verbessern. Wenn der Benutzer der Teilnahme an Windows CEIP nicht zugestimmt hat, führt diese Aufgabe keine Aktionen aus."
         },
         "Type": "CheckBox"
       },
@@ -207,12 +207,12 @@
         "ChildHeader": {
           "EN": "Microsoft-Windows-DiskDiagnosticDataCollector",
           "RU": "Microsoft-Windows-DiskDiagnosticDataCollector",
-          "DE": ""
+          "DE": "Microsoft-Windows-DiskDiagnosticDataCollector"
         },
         "ChildDescription": {
           "EN": "The Windows Disk Diagnostic reports general disk and system information to Microsoft for users participating in the Customer Experience Program.",
           "RU": "Для пользователей, участвующих в программе контроля качества программного обеспечения, служба диагностики дисков Windows предоставляет общие сведения о дисках и системе в корпорацию Майкрософт",
-          "DE": ""
+          "DE": "Die Windows-Datenträgerdiagnose meldet allgemeine Festplatten- und Systeminformationen an Microsoft für Benutzer, die am Customer Experience Program teilnehmen."
         },
         "Type": "CheckBox"
       },
@@ -221,12 +221,12 @@
         "ChildHeader": {
           "EN": "MapsToastTask",
           "RU": "MapsToastTask",
-          "DE": ""
+          "DE": "MapsToastTask"
         },
         "ChildDescription": {
           "EN": "This task shows various Map related toasts.",
           "RU": "Эта задача отображает различные тостовые уведомления, относящиеся к картам",
-          "DE": ""
+          "DE": "Dieser Task zeigt verschiedene kartenbezogenen Meldungen."
         },
         "Type": "CheckBox"
       },
@@ -235,12 +235,12 @@
         "ChildHeader": {
           "EN": "MapsUpdateTask",
           "RU": "MapsUpdateTask",
-          "DE": ""
+          "DE": "MapsUpdateTask"
         },
         "ChildDescription": {
           "EN": "This task checks for updates to maps which you have downloaded for offline use. Disabling this task will prevent Windows from notifying you of updated maps.",
           "RU": "Эта задача проверяет наличие обновлений для карт, загруженных для автономного использования. Если отключить эту задачу, Windows не сможет уведомлять вас о появлении обновленных карт",
-          "DE": ""
+          "DE": "Dieser Task sucht nach Updates für Karten, die Sie zur Offline-Nutzung heruntergeladen haben. Wenn Sie diesen Task deaktivieren, werden Sie von Windows nicht über aktualisierte Karten benachrichtigt."
         },
         "Type": "CheckBox"
       },
@@ -249,12 +249,12 @@
         "ChildHeader": {
           "EN": "FamilySafetyMonitor",
           "RU": "FamilySafetyMonitor",
-          "DE": ""
+          "DE": "FamilySafetyMonitor"
         },
         "ChildDescription": {
           "EN": "Initializes Family Safety monitoring and enforcement.",
           "RU": "Инициализация контроля и применения правил семейной безопасности",
-          "DE": ""
+          "DE": "Initialisiert die Überwachung und Durchsetzung der Familienoptionen."
         },
         "Type": "CheckBox"
       },
@@ -263,12 +263,12 @@
         "ChildHeader": {
           "EN": "XblGameSaveTask",
           "RU": "XblGameSaveTask",
-          "DE": ""
+          "DE": "XblGameSaveTask"
         },
         "ChildDescription": {
           "EN": "The XblGameSave Standby Task, which syncronizes game progress when the OS is idle.",
           "RU": "Задание XblGameSave, синхронизирующее прогресс в игре во время простоя ОС",
-          "DE": ""
+          "DE": "Der XblGameSave Standby Task, der den Spielfortschritt synchronisiert, wenn das Betriebssystem im Leerlauf ist."
         },
         "Type": "CheckBox"
       }
@@ -280,14 +280,14 @@
   {
     "Id": 118,
     "Header": {
-      "EN": "Use sign-in info to automatically finish setting up device after an update",
+      "EN": "Use sign-in info to automatically finish setting up device after an update.",
       "RU": "Использовать данные для входа для автоматического завершения настройки устройства и открытия приложений после перезапуска или обновления",
-      "DE": ""
+      "DE": "Anmeldeinformationen verwenden, um die Einrichtung des Geräts nach einer Aktualisierung automatisch abzuschließen."
     },
     "Description": {
       "EN": "Some updates require you to restart your PC and afterwards sign in to Windows in order to finish installing the update, which means you might not be able to use your PC until the update is finished. Windows helps prevents this by allowing Windows to use your sign in info to create a special token. This token is used to automatically sign in after a restart, finish setting up your PC, and then lock your PC to keep your account and personal info safe.",
       "RU": "Некоторые обновления требуют перезагрузки компьютера и входа в Windows для завершения установки обновления, что означает, что вы можете войти в Windows и обнаружить, что не можете использовать свой компьютер до завершения обновления. Windows помогает предотвратить это, позволяя Windows использовать информацию о входе в систему для создания специального маркера. Этот токен используется для автоматического входа в систему после перезагрузки, завершения настройки компьютера и последующей блокировки компьютера для обеспечения безопасности вашей учетной записи и личной информации",
-      "DE": ""
+      "DE": "Einige Updates erfordern, dass Sie Ihren PC neu starten und sich anschließend bei Windows anmelden, um die Installation des Updates abzuschließen, was bedeutet, dass Sie Ihren PC möglicherweise nicht verwenden können, bis das Update abgeschlossen ist. Windows hilft, dies zu verhindern, indem es Windows erlaubt, mit Ihren Anmeldeinformationen ein spezielles Token zu erstellen. Dieses Token wird verwendet, um sich nach einem Neustart automatisch anzumelden, die Einrichtung des PCs abzuschließen und den PC anschließend zu sperren, um Ihr Konto und Ihre persönlichen Daten zu schützen."
     },
     "Type": "CheckBox",
     "Tag": "Privacy",
@@ -300,7 +300,7 @@
     "Header": {
       "EN": "Let websites provide locally relevant content by accessing language list",
       "RU": "Позволить веб-сайтам предоставлять местную информацию за счет доступа к списку языков",
-      "DE": ""
+      "DE": "Websites können lokal relevante Inhalte durch Zugriff auf die Sprachliste bereitstellen."
     },
     "Description": {
       "EN": "",
@@ -318,7 +318,7 @@
     "Header": {
       "EN": "Let apps show me personalized ads by using my advertising ID",
       "RU": "Разрешить приложениям показывать персонализированную рекламу с помощью моего идентификатора рекламы",
-      "DE": ""
+      "DE": "Apps können mir personalisierte Werbung anzeigen, indem sie meine Werbe-ID verwenden."
     },
     "Description": {
       "EN": "",
@@ -336,12 +336,12 @@
     "Header": {
       "EN": "Show the Windows welcome experiences after updates and occasionally when I sign in to highlight new features and offers",
       "RU": "Показывать экран приветствия Windows после обновлений и иногда при входе, чтобы сообщить о новых функциях и предложениях",
-      "DE": ""
+      "DE": "Anzeige der \"Windows Welcome Experience\" nach Updates und gelegentlich bei der Anmeldung, um neue Funktionen und Angebote hervorzuheben"
     },
     "Description": {
       "EN": "Windows may open a pop-up window to show you what's new about the operating system.",
       "RU": "Windows может открывать всплывающее окно с подсказками, что нового в операционной системе",
-      "DE": ""
+      "DE": "Windows öffnet möglicherweise ein Popup-Fenster, um Sie über die Neuerungen des Betriebssystems zu informieren."
     },
     "Type": "CheckBox",
     "Tag": "Privacy",
@@ -354,7 +354,7 @@
     "Header": {
       "EN": "Get tips and suggestions as you use Windows",
       "RU": "Получать советы и предложения при использовании Windows",
-      "DE": ""
+      "DE": "Erhalten Sie Tipps und Vorschläge für die Verwendung von Windows"
     },
     "Description": {
       "EN": "",
@@ -372,7 +372,7 @@
     "Header": {
       "EN": "Show suggested content in the Settings app",
       "RU": "Показывать рекомендуемое содержимое в приложении \"Параметры\"",
-      "DE": ""
+      "DE": "Vorgeschlagene Inhalte in der Einstellungen-App anzeigen"
     },
     "Description": {
       "EN": "",
@@ -390,12 +390,12 @@
     "Header": {
       "EN": "Turn on automatic suggested app installation",
       "RU": "Включить автоматическую установку рекомендованных приложений",
-      "DE": ""
+      "DE": "Automatische vorgeschlagene App-Installation aktivieren"
     },
     "Description": {
       "EN": "Windows may silently download and install some suggested apps from the Microsoft Store without any user confirmation.",
       "RU": "Windows может в тихом режиме загружать и устанавливать некоторые приложения из Microsoft Store без какого-либо подтверждения",
-      "DE": ""
+      "DE": "Windows kann einige vorgeschlagene Anwendungen aus dem Microsoft Store herunterladen und installieren, ohne dass der Benutzer dies bestätigen muss."
     },
     "Type": "CheckBox",
     "Tag": "Privacy",
@@ -408,12 +408,12 @@
     "Header": {
       "EN": "Offer suggestions on how I can set up my device",
       "RU": "Показывать предложения по настройке устройства",
-      "DE": ""
+      "DE": "Vorschläge machen, wie ich mein Gerät einrichten kann"
     },
     "Description": {
       "EN": "Windows may display a \"Get even more out of Windows\" prompt occasionally that displays additional services that user may set up.",
       "RU": "Windows может иногда отображать всплывающее окошко \"Используйте Windows еще более эффективно\", в котором отображаются дополнительные службы, которые пользователь может настроить",
-      "DE": ""
+      "DE": "Windows zeigt möglicherweise gelegentlich die Aufforderung \"Holen Sie noch mehr aus Windows heraus\" an, die zusätzliche Dienste anzeigt, die der Benutzer einrichten kann."
     },
     "Type": "CheckBox",
     "Tag": "Privacy",
@@ -426,12 +426,12 @@
     "Header": {
       "EN": "Tailored experiences",
       "RU": "Персонализированные возможности",
-      "DE": ""
+      "DE": "Individuelle Benutzererfahrung"
     },
     "Description": {
       "EN": "Let Microsoft offer you tailored expereinces based on the diagnostic data setting you have chosen.",
       "RU": "Разрешите корпорации Майкрософт использовать ваши диагностические данные для улучшения вашей работы со службами Майкрософт с помощью персонализированных советов, рекламы и рекомендаций",
-      "DE": ""
+      "DE": "Microsoft bietet Ihnen individuelle Benutzererfahrungen auf der Grundlage der von Ihnen gewählten Einstellung für Diagnosedaten."
     },
     "Type": "CheckBox",
     "Tag": "Privacy",
@@ -444,7 +444,7 @@
     "Header": {
       "EN": "Enable Bing search in the Start Menu",
       "RU": "Включить поиск через Bing в меню \"Пуск\"",
-      "DE": ""
+      "DE": "Aktivieren der Bing-Suche im Startmenü"
     },
     "Description": {
       "EN": "",
@@ -462,7 +462,7 @@
     "Header": {
       "EN": "Show the \"This PC\" icon on Desktop",
       "RU": "Отображать значок \"Этот компьютер\" на рабочем столе",
-      "DE": ""
+      "DE": "Anzeigen des \"Dieser PC\" Symbols auf dem Desktop"
     },
     "Description": {
       "EN": "",
@@ -477,7 +477,7 @@
         "ChildHeader": {
           "EN": "Show",
           "RU": "Показывать",
-          "DE": ""
+          "DE": "Anzeigen"
         },
         "ChildDescription": {
           "EN": "",
@@ -491,7 +491,7 @@
         "ChildHeader": {
           "EN": "Hide",
           "RU": "Скрыть",
-          "DE": ""
+          "DE": "Verbergen"
         },
         "ChildDescription": {
           "EN": "",
@@ -510,7 +510,7 @@
     "Header": {
       "EN": "Enable the Windows 10 File Explorer",
       "RU": "Включить проводник из Windows 10",
-      "DE": ""
+      "DE": "Aktivieren Sie den Windows 10 Datei-Explorer"
     },
     "Description": {
       "EN": "",
@@ -528,7 +528,7 @@
     "Header": {
       "EN": "Use check boxes to select items",
       "RU": "Использовать флажки для выбора элементов",
-      "DE": ""
+      "DE": "Verwenden Sie Kontrollkästchen zur Auswahl von Elementen"
     },
     "Description": {
       "EN": "",
@@ -546,7 +546,7 @@
     "Header": {
       "EN": "Show hidden files, folders, and drives",
       "RU": "Отображать скрытые файлы, папки и диски",
-      "DE": ""
+      "DE": "Versteckte Dateien, Ordner und Laufwerke anzeigen"
     },
     "Description": {
       "EN": "",
@@ -564,7 +564,7 @@
     "Header": {
       "EN": "Show the file name extensions",
       "RU": "Отображать расширения имён файлов",
-      "DE": ""
+      "DE": "Dateinamenerweiterungen anzeigen"
     },
     "Description": {
       "EN": "",
@@ -582,7 +582,7 @@
     "Header": {
       "EN": "Hide folder merge conflicts",
       "RU": "Скрывать конфликт слияния папок",
-      "DE": ""
+      "DE": "Konflikte beim Zusammenführen von Ordnern ausblenden"
     },
     "Description": {
       "EN": "",
@@ -600,7 +600,7 @@
     "Header": {
       "EN": "Open File Explorer to:",
       "RU": "Открывать проводник для:",
-      "DE": ""
+      "DE": "Datei Explorer öffnet:"
     },
     "Description": {
       "EN": "",
@@ -615,7 +615,7 @@
         "ChildHeader": {
           "EN": "This PC",
           "RU": "Этот компьютер",
-          "DE": ""
+          "DE": "Dieser PC"
         },
         "ChildDescription": {
           "EN": "",
@@ -629,7 +629,7 @@
         "ChildHeader": {
           "EN": "Quick access",
           "RU": "Быстрый доступ",
-          "DE": ""
+          "DE": "Schnellzugriff"
         },
         "ChildDescription": {
           "EN": "",
@@ -648,7 +648,7 @@
     "Header": {
       "EN": "Show Cortana button on the taskbar",
       "RU": "Показать кнопку Кортаны на панели задач",
-      "DE": ""
+      "DE": "Cortana-Schaltfläche in der Taskleiste anzeigen"
     },
     "Description": {
       "EN": "",
@@ -666,7 +666,7 @@
     "Header": {
       "EN": "Enable the File Explorer compact mode",
       "RU": "Включить компактный вид проводника",
-      "DE": ""
+      "DE": "Aktivieren Sie den Kompaktmodus des Datei-Explorers"
     },
     "Description": {
       "EN": "",
@@ -684,12 +684,12 @@
     "Header": {
       "EN": "Show sync provider notifications within File Explorer",
       "RU": "Показывать уведомления поставщика синхронизации в проводнике",
-      "DE": ""
+      "DE": "Benachrichtigungen des Sync-Providers im Datei-Explorer anzeigen"
     },
     "Description": {
       "EN": "Disable OneDrive ad notifications within File Explorer.",
       "RU": "Отключить рекламные уведомления OneDrive в проводнике",
-      "DE": ""
+      "DE": "OneDrive-Benachrichtigungen im Datei-Explorer deaktivieren"
     },
     "Type": "CheckBox",
     "Tag": "Personalization",
@@ -702,7 +702,7 @@
     "Header": {
       "EN": "When I snap a window, show what I can snap next to it",
       "RU": "При прикреплении окна показывать, что можно прикрепить рядом с ним",
-      "DE": ""
+      "DE": "Wenn ich ein Fenster snappe, soll angezeigt werden, was ich neben dem Fenster snappen kann."
     },
     "Description": {
       "EN": "",
@@ -720,7 +720,7 @@
     "Header": {
       "EN": "Show snap layouts when I hover over a windows's maximaze button",
       "RU": "Показывать макеты прикрепления, частью которых является приложение, при наведении указателя мыши на кнопки панели задач",
-      "DE": ""
+      "DE": "Snap-Layouts anzeigen, wenn ich mit dem Mauszeiger über die Schaltfläche \"Maximieren\" eines Fensters fahre"
     },
     "Description": {
       "EN": "",
@@ -738,7 +738,7 @@
     "Header": {
       "EN": "Display the file transfer dialog box",
       "RU": "Отображать диалоговое окно передачи файлов",
-      "DE": ""
+      "DE": "Dialogfeld für die Dateiübertragung anzeigen"
     },
     "Description": {
       "EN": "",
@@ -753,7 +753,7 @@
         "ChildHeader": {
           "EN": "In the detailed mode",
           "RU": "В развернутом виде",
-          "DE": ""
+          "DE": "Im detaillierten Modus"
         },
         "ChildDescription": {
           "EN": "",
@@ -767,7 +767,7 @@
         "ChildHeader": {
           "EN": "In the compact mode",
           "RU": "В свернутом виде",
-          "DE": ""
+          "DE": "Im kompakten Modus"
         },
         "ChildDescription": {
           "EN": "",
@@ -786,7 +786,7 @@
     "Header": {
       "EN": "Minimize the File Explorer ribbon",
       "RU": "Свернуть ленту проводника",
-      "DE": ""
+      "DE": "Menüband des File Explorers minimieren"
     },
     "Description": {
       "EN": "",
@@ -804,7 +804,7 @@
     "Header": {
       "EN": "Display the recycle bin files delete confirmation dialog",
       "RU": "Запрашивать подтверждение на удаление файлов в корзину",
-      "DE": ""
+      "DE": "Bestätigungsdialog zum Löschen von Dateien im Papierkorb anzeigen"
     },
     "Description": {
       "EN": "",
@@ -822,7 +822,7 @@
     "Header": {
       "EN": "Show the \"3D Objects\" folder in \"This PC\" and Quick access",
       "RU": "Показывать папку \"Объемные объекты\" в \"Этот компьютер\" и панели быстрого доступа",
-      "DE": ""
+      "DE": "Anzeigen des Ordners \"3D-Objekte\" in \"Dieser PC\" und Schnellzugriff"
     },
     "Description": {
       "EN": "",
@@ -840,7 +840,7 @@
     "Header": {
       "EN": "Show frequently used folders in Quick access",
       "RU": "Показать часто используемые папки на панели быстрого доступа",
-      "DE": ""
+      "DE": "Häufig genutzte Ordner im Schnellzugriff anzeigen"
     },
     "Description": {
       "EN": "",
@@ -858,7 +858,7 @@
     "Header": {
       "EN": "Show recently used files in Quick access",
       "RU": "Показать недавно использовавшиеся файлы на панели быстрого доступа",
-      "DE": ""
+      "DE": "Zuletzt genutzte Ordner im Schnellzugriff anzeigen"
     },
     "Description": {
       "EN": "",
@@ -876,7 +876,7 @@
     "Header": {
       "EN": "Set the taskbar alignment",
       "RU": "Установить выравнивание панели задач",
-      "DE": ""
+      "DE": "Ausrichtung der Taskleiste festlegen"
     },
     "Description": {
       "EN": "",
@@ -891,7 +891,7 @@
         "ChildHeader": {
           "EN": "To the left",
           "RU": "По левому краю",
-          "DE": ""
+          "DE": "Nach links"
         },
         "ChildDescription": {
           "EN": "",
@@ -905,7 +905,7 @@
         "ChildHeader": {
           "EN": "To the center",
           "RU": "По центру",
-          "DE": ""
+          "DE": "Zur Mitte"
         },
         "ChildDescription": {
           "EN": "",
@@ -924,7 +924,7 @@
     "Header": {
       "EN": "Show the search button on the taskbar",
       "RU": "Показать кнопку поиска на панели задач",
-      "DE": ""
+      "DE": "Anzeigen der Suchschaltfläche in der Taskleiste"
     },
     "Description": {
       "EN": "",
@@ -942,7 +942,7 @@
     "Header": {
       "EN": "Show Task View button on the taskbar",
       "RU": "Отобразить кнопку Просмотра задач на панели задач",
-      "DE": ""
+      "DE": "Schaltfläche Aufgabenansicht in der Taskleiste anzeigen"
     },
     "Description": {
       "EN": "",
@@ -958,9 +958,9 @@
   {
     "Id": 229,
     "Header": {
-      "EN": "Show the Task view button on the taskbar",
+      "EN": "Show the Task View button on the taskbar",
       "RU": "Показать кнопку \"Представление задач\" на панели задач",
-      "DE": ""
+      "DE": "Anzeigen der Schaltfläche Aufgabenansicht in der Taskleiste"
     },
     "Description": {
       "EN": "",
@@ -978,7 +978,7 @@
     "Header": {
       "EN": "Show the widgets icon on the taskbar",
       "RU": "Отобразить кнопку \"Мини-приложения\" на панели задач",
-      "DE": ""
+      "DE": "Anzeigen des Widgetsymbols in der Taskleiste"
     },
     "Description": {
       "EN": "",
@@ -996,7 +996,7 @@
     "Header": {
       "EN": "Show People button on the taskbar",
       "RU": "Показывать панель \"Люди\" на панели задач",
-      "DE": ""
+      "DE": "Kontakte auf der Taskleiste anzeigen"
     },
     "Description": {
       "EN": "",
@@ -1014,7 +1014,7 @@
     "Header": {
       "EN": "Show seconds on the taskbar clock",
       "RU": "Отображать секунды в системных часах на панели задач",
-      "DE": ""
+      "DE": "Sekunden auf der Taskleistenuhr anzeigen"
     },
     "Description": {
       "EN": "",
@@ -1032,7 +1032,7 @@
     "Header": {
       "EN": "Search on the taskbar",
       "RU": "Поиск на панели задач",
-      "DE": ""
+      "DE": "Suche in der Taskleiste"
     },
     "Description": {
       "EN": "",
@@ -1047,7 +1047,7 @@
         "ChildHeader": {
           "EN": "Hidden",
           "RU": "Скрыто",
-          "DE": ""
+          "DE": "Versteckt"
         },
         "ChildDescription": {
           "EN": "",
@@ -1061,7 +1061,7 @@
         "ChildHeader": {
           "EN": "Hide search icon",
           "RU": "Показать значок поиска",
-          "DE": ""
+          "DE": "Verberge das Suchsymbol"
         },
         "ChildDescription": {
           "EN": "",
@@ -1075,7 +1075,7 @@
         "ChildHeader": {
           "EN": "Show search box",
           "RU": "Показать поле поиска",
-          "DE": ""
+          "DE": "Suchfeld anzeigen"
         },
         "ChildDescription": {
           "EN": "",
@@ -1094,7 +1094,7 @@
     "Header": {
       "EN": "Show Windows Ink Workspace button on the taskbar",
       "RU": "Показать кнопку Windows Ink Workspace на панели задач",
-      "DE": ""
+      "DE": "Schaltfläche \"Windows-Ink-Arbeitsbereich\" in der Taskleiste anzeigen"
     },
     "Description": {
       "EN": "",
@@ -1112,7 +1112,7 @@
     "Header": {
       "EN": "Always show all icons in the notification area",
       "RU": "Всегда отображать все значки в области уведомлений",
-      "DE": ""
+      "DE": "Immer alle Symbole im Infobereich anzeigen"
     },
     "Description": {
       "EN": "",
